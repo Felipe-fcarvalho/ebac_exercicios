@@ -1,0 +1,96 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+
+body {
+    background-color: #e0e0e0;
+    font-size: 1.5rem;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 100px auto;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+    padding: 32px;
+}
+
+.containerFlex {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+img {
+    height: 80px;
+    margin-right: 32px;
+}
+
+form {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+form button, 
+form input {
+    padding: 8px 16px;
+    border: none;
+    margin-inline: 16px;
+}
+
+form input {
+    color: rgba(0, 0, 0, 0.8);
+    background-color: #f5f3f3;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+    margin-right: 16px;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+form button {
+    background: linear-gradient(rgb(3, 3, 153), rgb(15, 67, 238));
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 999px;
+}
+
+form button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+    border-radius: 8px;
+    margin-top: 56px;
+}
+
+thead th {
+    background-color: #60c1f4;
+    color: white;
+    text-align: left;
+    padding: 16px;
+    font-size: 1.25rem;
+}
+
+tbody {
+    background-color: #f5f3f3;
+    font-size: 1.5rem;
+}
+
+tbody tr td {
+    padding: 16px;
+}
+
+tbody tr:nth-child(even) td {
+    background-color: #ececec;
+}

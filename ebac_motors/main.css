@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #fcf9f9;
+}
+
+header img,
+section img {
+    border-radius: 6px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+html {
+    overflow-x: hidden;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+header,
+footer {
+    background-color: #191966;
+    color: #fff;
+    padding-top: 16px;
+}
+
+header > .container,
+footer > .container {
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 16px;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: #3c4bce;
+    padding: 16px 0;
+    display: none;
+}
+
+nav li {
+    font-size: 18px;
+    font-weight: bold;
+    list-style: none;
+    text-transform: uppercase;
+    display: inline;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menuHamburguer {
+    width: 32px;
+    cursor: pointer;
+}
+
+.menuHamburguer span {
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.containerFlex {
+    display: flex;
+}
+
+#sobreALoja img {
+    max-width: 400px;
+    margin-right: 24px;
+}
+
+section {
+    padding: 48px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+#lojaText p {
+    text-align: justify;
+    width: 500px;
+    margin-bottom: 16px;
+}
+
+.listaVeiculos {
+    flex-wrap: wrap;
+}
+
+.listaVeiculos li {
+    list-style: none;
+    max-width: 30%;
+    margin-bottom: 24px;
+}
+
+.listaVeiculos li h3 {
+    margin: 16px 0;
+}
+
+.listaVeiculos li img {
+    max-width: 100%;
+}
+
+.itemCentral {
+    margin: 0 5%;
+}
+
+button {
+    padding: 8px 0;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    background-color: green;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+button:hover {
+    background-color: #02aa02;
+}
+
+.price {
+    margin: 16px 0;
+    display: block;
+}
+
+.price del {
+    color: red;
+    font-size: 14px;
+}
+
+.formCampo {
+    margin-bottom: 16px;
+}
+
+.formCampo label {
+    display: block;
+    font-weight: bold;
+}
+
+.formCampo input, 
+.formCampo textarea {
+    width: 100%;
+    display: block;
+    padding: 8px;
+}
+
+.formCampo textarea {
+    resize: none;
+    height: 120px;
+}
+
+form {
+    max-width: 360px;
+}
+
+form button {
+    max-width: 120px;
+}
+
+footer li {
+    list-style: none;
+    margin-left: 16px;
+}
+
+footer li img {
+    height: 32px;
+}
